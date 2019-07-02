@@ -12,6 +12,14 @@ export class AppComponent {
   public languages = languages;
   public toolbelt = toolbelt;
 
+  public showNavBar: boolean = false
+  public toggleNavBar() {
+    this.showNavBar = !this.showNavBar
+  }
+  public closeNavBar() {
+    this.showNavBar = false
+  }
+
   public isHovering(icon: deviconInterface): boolean {
     return icon.hovering;
   }
