@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { languages } from './languages'
+import { deviconInterface } from './devicon.interface';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'resume-angular';
+  public languages = languages;
+
+  public isHovering(icon: deviconInterface): boolean {
+    return icon.hovering;
+  }
+  public isClicked(icon: deviconInterface): boolean {
+    return icon.clicked || false;
+  }
+
+  public enter(icon: deviconInterface): void {
+    icon.hovering = true;
+  }
+
+  public leave(icon: deviconInterface): void {
+    icon.hovering = false;
+  }
+
+  public clicked(icon: deviconInterface): void {
+    icon.clicked = !icon.clicked
+  }
 }

@@ -131,21 +131,11 @@
 
       <div class="subheading mb-3">Languages & Frameworks</div>
       <ul class="list-inline list-icons">
-        <li class="list-inline-item"><i class="devicon-html5-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-css3-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-javascript-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-jquery-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-typescript-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-nodejs-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-express-original-wordmark"></i></li>
-        <li class="list-inline-item"><i class="devicon-ruby-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-rails-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-postgresql-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-mongodb-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-mysql-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-angularjs-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-vuejs-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+        <li class="list-inline-item" *ngFor="let language of languages">
+          <i [class]="isClicked(language) ? language.deviconWithText : language.devicon"
+            [ngClass]="{'colored': isHovering(language)}" (mouseenter)="enter(language)" (mouseleave)="leave(language)"
+            (click)="clicked(language)"></i>
+        </li>
       </ul>
 
       <div class="subheading mb-3">My Toolbelt</div>
