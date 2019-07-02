@@ -140,20 +140,10 @@
 
       <div class="subheading mb-3">My Toolbelt</div>
       <ul class="list-inline list-icons">
-        <li class="list-inline-item"><i class="colored devicon-git-plain-wordmark"></i></li>
-        <li class="list-inline-item"><i class="colored devicon-github-plain-wordmark"></i></li>
-        <li class="list-inline-item"><i class="colored devicon-amazonwebservices-plain-wordmark"></i></li>
-        <li class="list-inline-item"><i class="devicon-heroku-original-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-visualstudio-plain colored"></i></li>
-        <li class="list-inline-item"><i class="colored devicon-apple-original"></i></li>
-        <li class="list-inline-item"><i class="devicon-windows8-original colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-linux-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-docker-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="colored devicon-slack-plain-wordmark"></i></li>
-        <li class="list-inline-item"><i class="colored devicon-trello-plain-wordmark"></i></li>
-        <li class="list-inline-item"><i class="devicon-gulp-plain colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-webpack-plain-wordmark colored"></i></li>
-        <li class="list-inline-item"><i class="devicon-gradle-plain-wordmark colored"></i></li>
+        <li class="list-inline-item" *ngFor="let tool of toolbelt">
+          <i [class]="isClicked(tool) ? tool.deviconWithText : tool.devicon" [ngClass]="{'colored': isHovering(tool)}"
+            (mouseenter)="enter(tool)" (mouseleave)="leave(tool)" (click)="clicked(tool)"></i>
+        </li>
       </ul>
     </div>
   </section>

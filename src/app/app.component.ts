@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { languages } from './languages'
 import { deviconInterface } from './devicon.interface';
+import { toolbelt } from './toolbelt';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +10,13 @@ import { deviconInterface } from './devicon.interface';
 })
 export class AppComponent {
   public languages = languages;
+  public toolbelt = toolbelt;
 
   public isHovering(icon: deviconInterface): boolean {
     return icon.hovering;
   }
   public isClicked(icon: deviconInterface): boolean {
-    return icon.clicked || false;
+    return icon.clicked;
   }
 
   public enter(icon: deviconInterface): void {
