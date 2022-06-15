@@ -1,5 +1,6 @@
 import { deviconInterface } from './devicon.interface'
 
+// https://devicon.dev/
 export const languages: deviconInterface[] = [
   { devicon: "devicon-html5-plain", deviconWithText: "devicon-html5-plain-wordmark" },
   { devicon: "devicon-css3-plain", deviconWithText: "devicon-css3-plain-wordmark" },
@@ -18,8 +19,9 @@ export const languages: deviconInterface[] = [
   { devicon: "devicon-sqlite-plain", deviconWithText: "devicon-sqlite-plain-wordmark" },
   { devicon: "devicon-vuejs-plain", deviconWithText: "devicon-vuejs-plain-wordmark" },
   { devicon: "devicon-bootstrap-plain", deviconWithText: "devicon-bootstrap-plain-wordmark" },
+  { devicon: "devicon-tailwindcss-plain", deviconWithText: "devicon-tailwindcss-original-wordmark" },
   { devicon: "devicon-python-plain", deviconWithText: "devicon-python-plain-wordmark" },
   { devicon: "devicon-java-plain", deviconWithText: "devicon-java-plain-wordmark" },
-  { devicon: "devicon-django-plain", deviconWithText: "devicon-django-plain-wordmark" },
-  { devicon: "devicon-latex-original", deviconWithText: "devicon-latex-original-wordmark" },
+  // { devicon: "devicon-django-plain", deviconWithText: "devicon-django-plain-wordmark" },
+  { devicon: "devicon-latex-original", deviconWithText: "devicon-latex-original" },
 ]
