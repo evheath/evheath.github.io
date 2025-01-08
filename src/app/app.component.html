@@ -160,9 +160,12 @@
     <div class="my-auto">
       <h2 class="mb-5">Technologies</h2>
 
-      <div class="subheading mb-3">Frontend</div>
-      <ul class="list-inline list-icons">
-        <li class="list-inline-item" *ngFor="let tech of frontendTechs">
+      <div class="technologies-list">
+        <div class="subheading mr-3">Frontend</div>
+        <div
+          class="list-inline list-icons list-inline-item"
+          *ngFor="let tech of frontendTechs"
+        >
           <i
             [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
             [ngClass]="{ colored: isHovering(tech) }"
@@ -171,8 +174,8 @@
             (click)="clicked(tech)"
             [title]="tech.name"
           ></i>
-        </li>
-      </ul>
+        </div>
+      </div>
 
       <div class="subheading mb-3">Styling</div>
       <ul class="list-inline list-icons">
