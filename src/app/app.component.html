@@ -173,15 +173,100 @@
           ></i>
         </li>
       </ul>
+
+      <div class="subheading mb-3">Styling</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of stylingTechs">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Backend</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of backendTechs">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Languages</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of languages">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Databases</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of databases">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Mobile</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of mobileTechs">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Cloud Platforms</div>
+      <ul class="list-inline list-icons">
+        <li class="list-inline-item" *ngFor="let tech of platforms">
+          <i
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
+            [title]="tech.name"
+          ></i>
+        </li>
+      </ul>
+
       <div class="subheading mb-3">My Toolbelt</div>
       <ul class="list-inline list-icons">
-        <li class="list-inline-item" *ngFor="let tool of toolbeltTechs">
+        <li class="list-inline-item" *ngFor="let tech of toolbeltTechs">
           <i
-            [class]="isClicked(tool) ? tool.deviconWithText : tool.devicon"
-            [ngClass]="{ colored: isHovering(tool) }"
-            (mouseenter)="enter(tool)"
-            (mouseleave)="leave(tool)"
-            (click)="clicked(tool)"
+            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
+            [ngClass]="{ colored: isHovering(tech) }"
+            (mouseenter)="enter(tech)"
+            (mouseleave)="leave(tech)"
+            (click)="clicked(tech)"
             title="test"
           ></i>
         </li>

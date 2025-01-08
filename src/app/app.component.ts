@@ -1,5 +1,14 @@
 import { Component } from "@angular/core";
-import { frontendTechs, toolbeltTechs } from "./technologies";
+import {
+  frontendTechs,
+  toolbeltTechs,
+  backendTechs,
+  databases,
+  languages,
+  mobileTechs,
+  platforms,
+  stylingTechs,
+} from "./technologies";
 import { deviconInterface } from "./devicon.interface";
 
 @Component({
@@ -9,7 +18,13 @@ import { deviconInterface } from "./devicon.interface";
 })
 export class AppComponent {
   public frontendTechs = frontendTechs;
+  public backendTechs = backendTechs;
   public toolbeltTechs = toolbeltTechs;
+  public databases = databases;
+  public languages = languages;
+  public mobileTechs = mobileTechs;
+  public platforms = platforms;
+  public stylingTechs = stylingTechs;
 
   public showNavBar: boolean = false;
   public toggleNavBar() {

@@ -3,26 +3,6 @@ import { deviconInterface } from "./devicon.interface";
 // https://devicon.dev/
 export const frontendTechs: deviconInterface[] = [
   {
-    devicon: "devicon-html5-plain",
-    deviconWithText: "devicon-html5-plain-wordmark",
-    name: "HTML",
-  },
-  {
-    devicon: "devicon-css3-plain",
-    deviconWithText: "devicon-css3-plain-wordmark",
-    name: "CSS",
-  },
-  {
-    devicon: "devicon-javascript-plain",
-    deviconWithText: "devicon-javascript-plain",
-    name: "JavaScript",
-  },
-  {
-    devicon: "devicon-nextjs-plain",
-    deviconWithText: "devicon-nextjs-original-wordmark",
-    name: "Next.js",
-  },
-  {
     devicon: "devicon-react-original",
     deviconWithText: "devicon-react-original-wordmark",
     name: "React",
@@ -39,15 +19,43 @@ export const frontendTechs: deviconInterface[] = [
     name: "Angular",
   },
   {
-    devicon: "devicon-firebase-plain",
-    deviconWithText: "devicon-firebase-plain-wordmark",
-    name: "Firebase",
+    devicon: "devicon-vuejs-plain",
+    deviconWithText: "devicon-vuejs-plain-wordmark",
+    name: "Vue.js",
+  },
+];
+
+export const stylingTechs: deviconInterface[] = [
+  {
+    devicon: "devicon-css3-plain",
+    deviconWithText: "devicon-css3-plain-wordmark",
+    name: "CSS",
+  },
+
+  {
+    devicon: "devicon-tailwindcss-plain",
+    deviconWithText: "devicon-tailwindcss-original-wordmark",
+    name: "Tailwind CSS",
   },
   {
-    devicon: "devicon-typescript-plain",
-    deviconWithText: "devicon-typescript-plain",
-    name: "TypeScript",
+    devicon: "devicon-bootstrap-plain",
+    deviconWithText: "devicon-bootstrap-plain-wordmark",
+    name: "Bootstrap",
   },
+  {
+    devicon: "devicon-sass-original",
+    deviconWithText: "devicon-sass-original",
+    name: "SASS",
+  },
+];
+
+export const backendTechs: deviconInterface[] = [
+  {
+    devicon: "devicon-nextjs-plain",
+    deviconWithText: "devicon-nextjs-original-wordmark",
+    name: "Next.js",
+  },
+
   {
     devicon: "devicon-nodejs-plain",
     deviconWithText: "devicon-nodejs-plain-wordmark",
@@ -68,6 +76,33 @@ export const frontendTechs: deviconInterface[] = [
     deviconWithText: "devicon-rails-plain-wordmark",
     name: "Rails",
   },
+];
+
+export const languages: deviconInterface[] = [
+  {
+    devicon: "devicon-html5-plain",
+    deviconWithText: "devicon-html5-plain-wordmark",
+    name: "HTML",
+  },
+  {
+    devicon: "devicon-javascript-plain",
+    deviconWithText: "devicon-javascript-plain",
+    name: "JavaScript",
+  },
+  {
+    devicon: "devicon-typescript-plain",
+    deviconWithText: "devicon-typescript-plain",
+    name: "TypeScript",
+  },
+
+  {
+    devicon: "devicon-ruby-plain",
+    deviconWithText: "devicon-ruby-plain-wordmark",
+    name: "Ruby",
+  },
+];
+
+export const databases: deviconInterface[] = [
   {
     devicon: "devicon-postgresql-plain",
     deviconWithText: "devicon-postgresql-plain-wordmark",
@@ -88,22 +123,9 @@ export const frontendTechs: deviconInterface[] = [
     deviconWithText: "devicon-sqlite-plain-wordmark",
     name: "SQLite",
   },
-  {
-    devicon: "devicon-vuejs-plain",
-    deviconWithText: "devicon-vuejs-plain-wordmark",
-    name: "Vue.js",
-  },
-  {
-    devicon: "devicon-bootstrap-plain",
-    deviconWithText: "devicon-bootstrap-plain-wordmark",
-    name: "Bootstrap",
-  },
-  {
-    devicon: "devicon-tailwindcss-plain",
-    deviconWithText: "devicon-tailwindcss-original-wordmark",
-    name: "Tailwind CSS",
-  },
 ];
+
+export const mobileTechs: deviconInterface[] = [];
 
 export const toolbeltTechs: deviconInterface[] = [
   {
@@ -165,5 +187,13 @@ export const toolbeltTechs: deviconInterface[] = [
     devicon: "devicon-npm-original-wordmark",
     deviconWithText: "devicon-npm-original-wordmark",
     name: "npm",
+  },
+];
+
+export const platforms: deviconInterface[] = [
+  {
+    devicon: "devicon-firebase-plain",
+    deviconWithText: "devicon-firebase-plain-wordmark",
+    name: "Firebase",
   },
 ];
