@@ -1,23 +1,22 @@
-import { Component } from '@angular/core';
-import { languages } from './languages'
-import { deviconInterface } from './devicon.interface';
-import { toolbelt } from './toolbelt';
+import { Component } from "@angular/core";
+import { frontendTechs, toolbeltTechs } from "./technologies";
+import { deviconInterface } from "./devicon.interface";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  public languages = languages;
-  public toolbelt = toolbelt;
+  public frontendTechs = frontendTechs;
+  public toolbeltTechs = toolbeltTechs;
 
-  public showNavBar: boolean = false
+  public showNavBar: boolean = false;
   public toggleNavBar() {
-    this.showNavBar = !this.showNavBar
+    this.showNavBar = !this.showNavBar;
   }
   public closeNavBar() {
-    this.showNavBar = false
+    this.showNavBar = false;
   }
 
   public isHovering(icon: deviconInterface): boolean {
@@ -36,6 +35,6 @@ export class AppComponent {
   }
 
   public clicked(icon: deviconInterface): void {
-    icon.clicked = !icon.clicked
+    icon.clicked = !icon.clicked;
   }
 }
