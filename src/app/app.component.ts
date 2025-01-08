@@ -5,7 +5,6 @@ import {
   backendTechs,
   databases,
   languages,
-  mobileTechs,
   platforms,
   stylingTechs,
 } from "./technologies";
@@ -22,7 +21,6 @@ export class AppComponent {
   public toolbeltTechs = toolbeltTechs;
   public databases = databases;
   public languages = languages;
-  public mobileTechs = mobileTechs;
   public platforms = platforms;
   public stylingTechs = stylingTechs;
 

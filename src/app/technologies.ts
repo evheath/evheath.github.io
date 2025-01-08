@@ -34,7 +34,7 @@ export const stylingTechs: deviconInterface[] = [
 
   {
     devicon: "devicon-tailwindcss-plain",
-    deviconWithText: "devicon-tailwindcss-original-wordmark",
+    deviconWithText: "devicon-tailwindcss-plain-wordmark",
     name: "Tailwind CSS",
   },
   {
@@ -55,26 +55,20 @@ export const backendTechs: deviconInterface[] = [
     deviconWithText: "devicon-nextjs-original-wordmark",
     name: "Next.js",
   },
-
-  {
-    devicon: "devicon-nodejs-plain",
-    deviconWithText: "devicon-nodejs-plain-wordmark",
-    name: "Node.js",
-  },
   {
     devicon: "devicon-express-original",
     deviconWithText: "devicon-express-original-wordmark",
     name: "Express",
   },
   {
-    devicon: "devicon-ruby-plain",
-    deviconWithText: "devicon-ruby-plain-wordmark",
-    name: "Ruby",
+    devicon: "devicon-symfony-original",
+    deviconWithText: "devicon-symfony-original-wordmark",
+    name: "Symfony",
   },
   {
     devicon: "devicon-rails-plain",
     deviconWithText: "devicon-rails-plain-wordmark",
-    name: "Rails",
+    name: "Ruby on Rails",
   },
 ];
 
@@ -100,6 +94,16 @@ export const languages: deviconInterface[] = [
     deviconWithText: "devicon-ruby-plain-wordmark",
     name: "Ruby",
   },
+  {
+    devicon: "devicon-php-plain",
+    deviconWithText: "devicon-php-plain",
+    name: "PHP",
+  },
+  {
+    devicon: "devicon-java-plain",
+    deviconWithText: "devicon-java-plain-wordmark",
+    name: "Java",
+  },
 ];
 
 export const databases: deviconInterface[] = [
@@ -107,6 +111,12 @@ export const databases: deviconInterface[] = [
     devicon: "devicon-postgresql-plain",
     deviconWithText: "devicon-postgresql-plain-wordmark",
     name: "PostgreSQL",
+  },
+
+  {
+    devicon: "devicon-prisma-original",
+    deviconWithText: "devicon-prisma-original-wordmark",
+    name: "Prisma",
   },
   {
     devicon: "devicon-mongodb-plain",
@@ -125,8 +135,6 @@ export const databases: deviconInterface[] = [
   },
 ];
 
-export const mobileTechs: deviconInterface[] = [];
-
 export const toolbeltTechs: deviconInterface[] = [
   {
     devicon: "devicon-git-plain",
@@ -134,23 +142,23 @@ export const toolbeltTechs: deviconInterface[] = [
     name: "Git",
   },
   {
-    devicon: "devicon-github-plain",
-    deviconWithText: "devicon-github-plain-wordmark",
+    devicon: "devicon-github-original",
+    deviconWithText: "devicon-github-original-wordmark",
     name: "GitHub",
   },
   {
-    devicon: "devicon-amazonwebservices-plain",
-    deviconWithText: "devicon-amazonwebservices-plain-wordmark",
-    name: "AWS",
+    devicon: "devicon-trpc-plain",
+    deviconWithText: "devicon-trpc-plain-wordmark",
+    name: "tRPC",
   },
   {
-    devicon: "devicon-heroku-original",
-    deviconWithText: "devicon-heroku-original-wordmark",
-    name: "Heroku",
+    devicon: "devicon-vitejs-plain",
+    deviconWithText: "devicon-vitejs-plain",
+    name: "Vite",
   },
   {
-    devicon: "devicon-visualstudio-plain",
-    deviconWithText: "devicon-visualstudio-plain-wordmark",
+    devicon: "devicon-vscode-plain",
+    deviconWithText: "devicon-vscode-plain-wordmark",
     name: "Visual Studio Code",
   },
   {
@@ -188,12 +196,54 @@ export const toolbeltTechs: deviconInterface[] = [
     deviconWithText: "devicon-npm-original-wordmark",
     name: "npm",
   },
+  {
+    devicon: "devicon-pnpm-plain",
+    deviconWithText: "devicon-pnpm-plain-wordmark",
+    name: "pnpm",
+  },
+  {
+    devicon: "devicon-yarn-plain",
+    deviconWithText: "devicon-yarn-plain-wordmark",
+    name: "yarn",
+  },
+  {
+    devicon: "devicon-figma-plain",
+    deviconWithText: "devicon-figma-plain",
+    name: "Figma",
+  },
+  {
+    devicon: "devicon-postman-plain",
+    deviconWithText: "devicon-postman-plain-wordmark",
+    name: "Postman",
+  },
 ];
 
 export const platforms: deviconInterface[] = [
   {
+    devicon: "devicon-supabase-plain",
+    deviconWithText: "devicon-supabase-plain-wordmark",
+    name: "Supabase",
+  },
+  {
+    devicon: "devicon-vercel-plain",
+    deviconWithText: "devicon-vercel-plain-wordmark",
+    name: "Vercel",
+  },
+  {
     devicon: "devicon-firebase-plain",
     deviconWithText: "devicon-firebase-plain-wordmark",
     name: "Firebase",
+  },
+
+  {
+    devicon: "devicon-heroku-original",
+    deviconWithText: "devicon-heroku-original-wordmark",
+    name: "Heroku",
+  },
+
+  {
+    devicon: "devicon-amazonwebservices-plain",
+    deviconWithText: "devicon-amazonwebservices-plain-wordmark",
+    name: "AWS",
   },
 ];

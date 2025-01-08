@@ -230,20 +230,6 @@
         </li>
       </ul>
 
-      <div class="subheading mb-3">Mobile</div>
-      <ul class="list-inline list-icons">
-        <li class="list-inline-item" *ngFor="let tech of mobileTechs">
-          <i
-            [class]="isClicked(tech) ? tech.deviconWithText : tech.devicon"
-            [ngClass]="{ colored: isHovering(tech) }"
-            (mouseenter)="enter(tech)"
-            (mouseleave)="leave(tech)"
-            (click)="clicked(tech)"
-            [title]="tech.name"
-          ></i>
-        </li>
-      </ul>
-
       <div class="subheading mb-3">Cloud Platforms</div>
       <ul class="list-inline list-icons">
         <li class="list-inline-item" *ngFor="let tech of platforms">
@@ -267,7 +253,7 @@
             (mouseenter)="enter(tech)"
             (mouseleave)="leave(tech)"
             (click)="clicked(tech)"
-            title="test"
+            [title]="tech.name"
           ></i>
         </li>
       </ul>
