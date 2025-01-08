@@ -13,15 +13,21 @@ export const languages: deviconInterface[] = [
     name: "CSS",
   },
   {
+    devicon: "devicon-javascript-plain",
+    deviconWithText: "devicon-javascript-plain",
+    name: "JavaScript",
+  },
+  {
     devicon: "devicon-nextjs-plain",
     deviconWithText: "devicon-nextjs-original-wordmark",
     name: "Next.js",
   },
   {
-    devicon: "devicon-javascript-plain",
-    deviconWithText: "devicon-javascript-plain",
-    name: "JavaScript",
+    devicon: "devicon-react-original",
+    deviconWithText: "devicon-react-original-wordmark",
+    name: "React",
   },
+
   {
     devicon: "devicon-jquery-plain",
     deviconWithText: "devicon-jquery-plain-wordmark",
