@@ -1,5 +1,8 @@
 {
   "name": "resume-angular",
+  "engines": {
+    "node": "16"
+  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
