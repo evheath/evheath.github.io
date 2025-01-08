@@ -6,6 +6,7 @@ import {
   databases,
   languages,
   platforms,
+  packages,
   stylingTechs,
 } from "./technologies";
 import { deviconInterface } from "./devicon.interface";
@@ -23,6 +24,7 @@ export class AppComponent {
   public languages = languages;
   public platforms = platforms;
   public stylingTechs = stylingTechs;
+  public packages = packages;
 
   public showNavBar: boolean = false;
   public toggleNavBar() {

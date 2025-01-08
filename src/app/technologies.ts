@@ -106,86 +106,19 @@ export const languages: deviconInterface[] = [
   },
 ];
 
-export const databases: deviconInterface[] = [
-  {
-    devicon: "devicon-postgresql-plain",
-    deviconWithText: "devicon-postgresql-plain-wordmark",
-    name: "PostgreSQL",
-  },
-
+export const packages: deviconInterface[] = [
   {
     devicon: "devicon-prisma-original",
     deviconWithText: "devicon-prisma-original-wordmark",
     name: "Prisma",
   },
-  {
-    devicon: "devicon-mongodb-plain",
-    deviconWithText: "devicon-mongodb-plain-wordmark",
-    name: "MongoDB",
-  },
-  {
-    devicon: "devicon-mysql-plain",
-    deviconWithText: "devicon-mysql-plain-wordmark",
-    name: "MySQL",
-  },
-  {
-    devicon: "devicon-sqlite-plain",
-    deviconWithText: "devicon-sqlite-plain-wordmark",
-    name: "SQLite",
-  },
-];
 
-export const toolbeltTechs: deviconInterface[] = [
-  {
-    devicon: "devicon-git-plain",
-    deviconWithText: "devicon-git-plain-wordmark",
-    name: "Git",
-  },
-  {
-    devicon: "devicon-github-original",
-    deviconWithText: "devicon-github-original-wordmark",
-    name: "GitHub",
-  },
   {
     devicon: "devicon-trpc-plain",
     deviconWithText: "devicon-trpc-plain-wordmark",
     name: "tRPC",
   },
-  {
-    devicon: "devicon-vitejs-plain",
-    deviconWithText: "devicon-vitejs-plain",
-    name: "Vite",
-  },
-  {
-    devicon: "devicon-vscode-plain",
-    deviconWithText: "devicon-vscode-plain-wordmark",
-    name: "Visual Studio Code",
-  },
-  {
-    devicon: "devicon-apple-original",
-    deviconWithText: "devicon-apple-original",
-    name: "Apple",
-  },
-  {
-    devicon: "devicon-linux-plain",
-    deviconWithText: "devicon-linux-plain",
-    name: "Linux",
-  },
-  {
-    devicon: "devicon-docker-plain",
-    deviconWithText: "devicon-docker-plain-wordmark",
-    name: "Docker",
-  },
-  {
-    devicon: "devicon-slack-plain",
-    deviconWithText: "devicon-slack-plain-wordmark",
-    name: "Slack",
-  },
-  {
-    devicon: "devicon-trello-plain",
-    deviconWithText: "devicon-trello-plain-wordmark",
-    name: "Trello",
-  },
+
   {
     devicon: "devicon-webpack-plain",
     deviconWithText: "devicon-webpack-plain-wordmark",
@@ -206,15 +139,29 @@ export const toolbeltTechs: deviconInterface[] = [
     deviconWithText: "devicon-yarn-plain-wordmark",
     name: "yarn",
   },
+];
+
+export const databases: deviconInterface[] = [
   {
-    devicon: "devicon-figma-plain",
-    deviconWithText: "devicon-figma-plain",
-    name: "Figma",
+    devicon: "devicon-postgresql-plain",
+    deviconWithText: "devicon-postgresql-plain-wordmark",
+    name: "PostgreSQL",
+  },
+
+  {
+    devicon: "devicon-mongodb-plain",
+    deviconWithText: "devicon-mongodb-plain-wordmark",
+    name: "MongoDB",
   },
   {
-    devicon: "devicon-postman-plain",
-    deviconWithText: "devicon-postman-plain-wordmark",
-    name: "Postman",
+    devicon: "devicon-mysql-plain",
+    deviconWithText: "devicon-mysql-plain-wordmark",
+    name: "MySQL",
+  },
+  {
+    devicon: "devicon-sqlite-plain",
+    deviconWithText: "devicon-sqlite-plain-wordmark",
+    name: "SQLite",
   },
 ];
 
@@ -245,5 +192,53 @@ export const platforms: deviconInterface[] = [
     devicon: "devicon-amazonwebservices-plain",
     deviconWithText: "devicon-amazonwebservices-plain-wordmark",
     name: "AWS",
+  },
+];
+
+export const toolbeltTechs: deviconInterface[] = [
+  {
+    devicon: "devicon-git-plain",
+    deviconWithText: "devicon-git-plain-wordmark",
+    name: "Git",
+  },
+  {
+    devicon: "devicon-github-original",
+    deviconWithText: "devicon-github-original-wordmark",
+    name: "GitHub",
+  },
+  {
+    devicon: "devicon-vitejs-plain",
+    deviconWithText: "devicon-vitejs-plain",
+    name: "Vite",
+  },
+  {
+    devicon: "devicon-vscode-plain",
+    deviconWithText: "devicon-vscode-plain-wordmark",
+    name: "Visual Studio Code",
+  },
+  {
+    devicon: "devicon-docker-plain",
+    deviconWithText: "devicon-docker-plain-wordmark",
+    name: "Docker",
+  },
+  {
+    devicon: "devicon-slack-plain",
+    deviconWithText: "devicon-slack-plain-wordmark",
+    name: "Slack",
+  },
+  {
+    devicon: "devicon-trello-plain",
+    deviconWithText: "devicon-trello-plain-wordmark",
+    name: "Trello",
+  },
+  {
+    devicon: "devicon-figma-plain",
+    deviconWithText: "devicon-figma-plain",
+    name: "Figma",
+  },
+  {
+    devicon: "devicon-postman-plain",
+    deviconWithText: "devicon-postman-plain-wordmark",
+    name: "Postman",
   },
 ];
